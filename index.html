@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>♡ emily lobel ♡</title>
+		<link rel="stylesheet" type="text/css" href="emilylobel.css">
+		<script type="text/javascript" src="emilylobel.js"></script>
+	</head>
+	<body>
+		<div id="left"></div>
+		<div id="right"></div>
+		<div id="top"></div>
+		<div id="bottom"></div>
+
+		<p id = "typewriter">hello friends :)</p>
+		<marquee id = "smallTitle"><blink>♡♡♡♡♡♡♡♡♡welcome to my website♡♡♡♡♡♡♡♡♡</blink></marquee>
+		<div class="container">
+    		<div class="intro">
+				<p>my name is emily lobel! i am a rising junior at Bryn Mawr College double majoring in computer science and theater!</p>
+				<p id = "littleguy">(i don't currently intend to join the two - i haven't seen a play written in java or a website that sings yet - but i love both very much, and i hope to see more intersection between the two worlds!)</p>
+				<p>i've been a dedicated employee to Girls Who Code for the last three summers. women's empowerment is a subject close to my heart, as well as the empowerment of all people. i hope these subjects are important to you too.</p>
+				<p>i'm currently pursuing internships for the summer of 2019. i have in-class experience in java, python, C, and C++.  i'm also super interested in front-end and design, so i'm doing my best to self-teach! if you have any advice, let me know. :)</p>
+                <p>i love to meet new people and share experiences! talking about any of the above topics with you would be super awesome. seriously! as for non-CS discussion topics, my favorites are musical theater, video games, the beatles, and SNL, but email me and we can talk about anything you want!!! </p>
+				<p style="text-align: center;"><a style = "color: mediumseagreen" href = "https://www.instagram.com/comedyisillegal/" target="_blank" title = "secret linky :)">♡</a> <a style = "color: mediumseagreen" href = "https://twitter.com/comedysillegal" target="_blank" title = "secret linky :)">♡</a></p>
+    		</div>
+            <div class="side">
+				<img src='regular.jpg' id = "img1" alt = "a photo of me looking smug in my mother's glasses" width = "80%" onClick = "change()"/;>
+				 <script>
+            		var image =  document.getElementById("img1");
+
+            		function change() {
+                		if (image.getAttribute('src') == "regular.jpg"){
+                    		image.src = "merryxmas.jpg";
+                		} else {
+                    		image.src = "regular.jpg";
+                		}
+            		}
+				</script>
+
+            </div>
+		</div>
+		<footer>
+    		<ul>
+				<li><a href="resume.pdf" target = "_blank">resume</a></li>
+				<li><a href="http://linkedin.com/in/emilyglobel" target="_blank">linkedin</a></li>
+				<li><a href ="https://github.com/elobel" target = "_blank">github</a></li>
+				<li><a href = "mailto:emilyglobel@gmail.com" target = "_blank" title = "my email is emilyglobel@gmail.com :)">email</a></li>
+			</ul>
+		</footer>
+	</body>
+</html>
