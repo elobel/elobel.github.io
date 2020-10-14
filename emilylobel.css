@@ -45,6 +45,10 @@
     font-size:1em;
 }
 
+#linkButton{
+	text-align: center; 
+}
+
 .linkbutton {
 	background-color: lightpink;
 	color: darkolivegreen;
@@ -53,6 +57,7 @@
   	border-right: 1px solid #333333;
   	border-bottom: 1px solid #333333;
   	border-left: 1px solid #CCCCCC;
+	text-align: center;
 }
 
 .linkbutton:hover {
