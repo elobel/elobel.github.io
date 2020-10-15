@@ -24,6 +24,11 @@
     letter-spacing: .02em;
 }
 
+#welcome{
+	text-align: center; 
+}
+
+
 #help {
     display: block;
     margin-left: auto;
