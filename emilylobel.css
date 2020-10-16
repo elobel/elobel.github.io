@@ -23,7 +23,7 @@
     margin-top: .05em;
     overflow: hidden; 
     white-space: nowrap; 
-    margin: 0 auto; 
+    margin-bottom: 0; 
     letter-spacing: .02em;
 }
 
@@ -48,6 +48,7 @@
     font-style: italic;
     color: mediumseagreen;
 	text-align: center;
+	margin: 0
 }
 
 #littleguy{
