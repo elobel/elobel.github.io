@@ -1,5 +1,6 @@
 #typewriter {
-    font-size: 6em;
+    font-weight: normal;
+	font-size: 6em;
     font-style: italic;
     text-align: center;
     color: mediumseagreen;
@@ -7,12 +8,14 @@
     overflow: hidden; 
     white-space: nowrap; 
     margin: 0 auto; 
+    line-height: 1.3em;
     letter-spacing: .02em; 
     animation: 
         typing 3.5s steps(30, end);
 }
 
 #notypewriter{
+	font-weight: normal;
 	font-size: 6em;
     font-style: italic;
     text-align: center;
@@ -44,6 +47,7 @@
     font-size: 2em;
     font-style: italic;
     color: mediumseagreen;
+	text-align: center;
 }
 
 #littleguy{
