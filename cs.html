@@ -5,38 +5,40 @@
 		<link rel="stylesheet" type="text/css" href="emilylobel.css">
 	</head>
 	<body>
-		<div id="left"></div>
-		<div id="right"></div>
-		<div id="top"></div>
-		<div id="bottom"></div>
+		<main>
+			<div id="left"></div>
+			<div id="right"></div>
+			<div id="top"></div>
+			<div id="bottom"></div>
 
-		<h1 id="notypewriter">hello friends :)</h1>
-		<h2 id = "smallTitle">♡♡♡♡♡♡♡♡♡ welcome to my website♡♡♡♡♡♡♡♡♡</h2>
-		<div class="container">
-    		<div class="intro">
-				<p>hi! again, i'm emily lobel. i'm a new grad from Bryn Mawr College with a double major in computer science and theater! i'm so lucky to have studied my two greatest passions. &#9734;</p>
-				<p>in summer 2019, i was a <a href = 'https://hackny.org/' target = "_blank">hackNY fellow</a> and a software engineering intern at <a href='https://www.buzzfeed.com/'>BuzzFeed</a>. the next time you see any changes in that white navigation bar at the top of BuzzFeed.com, that'll be thanks to the internal tool i helped build! before 2019, i was a dedicated intern and classroom T.A. to <a href='https://girlswhocode.com/'>Girls Who Code</a> for three years. </p>
-				<p>since i graduated in may 2020, i'm excited to be pursuing full time positions. i'm particularly excited about product management and software engineering roles. i have professional experience in front-end development with React, HTML, CSS, and Javascript. i have academic experience in HCI, Java, Python, C, and C++. i'm always eager to learn more about technology! :)</p>
-                <p>i love to meet new people and share experiences -- please reach out to me about anything above! as for non-CS discussion topics, my favorites are musical theater, video games, the beatles, and SNL, but email me and we can talk about anything you want!!! </p>
-				<p style="text-align: center;"><a style = "color: mediumseagreen" href = "https://www.instagram.com/emlylobl/" target="_blank" title = "secret linky :)">♡</a> <a style = "color: mediumseagreen" href = "https://twitter.com/emlylobl" target="_blank" title = "secret linky :)">♡</a></p>
-				<p id="linkButton"><a class = "linkbutton" href="index.html">back to main!</a></p>
-    		</div>
-            <div class="side">
-				<img src='regular.jpg' id = "img1" alt = "a photo of me looking smug in my mother's glasses" width = "80%" onClick = "change()"/;>
-				 <script>
-            		var image =  document.getElementById("img1");
+			<h1 id="notypewriter">hello friends :)</h1>
+			<h2 id = "smallTitle">♡♡♡♡♡♡♡♡♡ welcome to my website♡♡♡♡♡♡♡♡♡</h2>
+			<div class="container">
+				<div class="intro">
+					<p>hi! again, i'm emily lobel. i'm a new grad from Bryn Mawr College with a double major in computer science and theater! i'm so lucky to have studied my two greatest passions. &#9734;</p>
+					<p>in summer 2019, i was a <a href = 'https://hackny.org/' target = "_blank">hackNY fellow</a> and a software engineering intern at <a href='https://www.buzzfeed.com/'>BuzzFeed</a>. the next time you see any changes in that white navigation bar at the top of BuzzFeed.com, that'll be thanks to the internal tool i helped build! before 2019, i was a dedicated intern and classroom T.A. to <a href='https://girlswhocode.com/'>Girls Who Code</a> for three years. </p>
+					<p>since i graduated in may 2020, i'm excited to be pursuing full time positions. i'm particularly excited about product management and software engineering roles. i have professional experience in front-end development with React, HTML, CSS, and Javascript. i have academic experience in HCI, Java, Python, C, and C++. i'm always eager to learn more about technology! :)</p>
+					<p>i love to meet new people and share experiences -- please reach out to me about anything above! as for non-CS discussion topics, my favorites are musical theater, video games, the beatles, and SNL, but email me and we can talk about anything you want!!! </p>
+					<p style="text-align: center;"><a style = "color: mediumseagreen" href = "https://www.instagram.com/emlylobl/" target="_blank" title = "secret linky :)">♡</a> <a style = "color: mediumseagreen" href = "https://twitter.com/emlylobl" target="_blank" title = "secret linky :)">♡</a></p>
+					<p id="linkButton"><a class = "linkbutton" href="index.html">back to main!</a></p>
+				</div>
+				<div class="side">
+					<img src='regular.jpg' id = "img1" alt = "a photo of me looking smug in my mother's glasses" width = "80%" onClick = "change()"/;>
+					 <script>
+						var image =  document.getElementById("img1");
 
-            		function change() {
-                		if (image.getAttribute('src') == "regular.jpg"){
-                    		image.src = "merryxmas.jpg";
-                		} else {
-                    		image.src = "regular.jpg";
-                		}
-            		}
-				</script>
+						function change() {
+							if (image.getAttribute('src') == "regular.jpg"){
+								image.src = "merryxmas.jpg";
+							} else {
+								image.src = "regular.jpg";
+							}
+						}
+					</script>
 
-            </div>
-		</div>
+				</div>
+			</div>
+		</main>
 		<footer>
     		<ul>
 				<li><a href="resume.pdf" target = "_blank">resume</a></li>
