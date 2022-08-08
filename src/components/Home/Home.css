@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300');
+
+.homeDiv {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  margin-left: 1em;
+  font-size: 1.5em;
+}
+  
+.emilyHeading {
+  margin-bottom: 3em;
+}
+
+.floatingHi {
+  font-size: 1em;
+}
+
+.iamParagraph {
+  margin-bottom: 2em;
+}
+
+.floatingHi {
+  animation: fly 45s linear infinite;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 100;
+  pointer-events: none;
+}
+
+/* https://wickydesign.com/make-an-image-fly-across-the-screen/ */
+@keyframes fly {
+	0% {
+		transform: translate(-2em,20em);
+	}
+
+	3% {
+		transform: translate(-2em,20em) ;
+	}
+
+	25% {
+		transform: translate(45em,-10em);
+	}
+
+	50% {
+		transform: translate(50em,50em) ;
+	}
+
+	62.5% {
+		transform: translate(25em,10em) ;
+	}
+
+	75% {
+		transform: translate(100em,50em) ;
+	}
+
+	100% {
+		transform: translate(0em,20em) ;
+	}
+}
+
+a {
+  text-decoration: none;
+}
+
+.engineerText {
+  color: #6aa84f;
+  font-weight: bold;
+}
+
+.actorText {
+  color: #ea9999;
+  font-weight: bold;
+}

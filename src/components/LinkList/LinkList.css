@@ -1,0 +1,28 @@
+
+a {
+  text-decoration: none;
+}
+
+.ellevestLink {
+  color: #446c5d;
+}
+
+.buzzFeedLink {
+  color: #e32;
+}
+
+.gwcLink {
+  color: #0d9c90;
+}
+
+.linkList {
+  list-style-type: none;
+}
+
+.linkTextEngineer, .linkTextActor:focus, .linkTextActor:hover {
+  color: #6aa84f;
+}
+
+.linkTextActor, .linkTextEngineer:focus, .linkTextEngineer:hover {
+  color: #ea9999;
+}
