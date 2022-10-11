@@ -1,17 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300');
 
 .actorDiv {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
   margin-left: 1em;
   font-size: 1.5em;
 }
 
 .actorParagraph {
   margin-bottom: 1em;
-}
-
-.actorDiv {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 200;
 }
 
 /* https://lenadesign.org/2021/03/05/pure-css-rainbow-text-animation/ */
