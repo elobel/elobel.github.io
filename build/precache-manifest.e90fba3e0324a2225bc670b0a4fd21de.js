@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "7f32ac74f5fcd1d4b065",
-    "url": "/static/css/main.dd91b9a3.chunk.css"
+    "revision": "2a4863ee488d06dd5dde",
+    "url": "/static/css/main.294abd20.chunk.css"
   },
   {
-    "revision": "7f32ac74f5fcd1d4b065",
-    "url": "/static/js/main.7f32ac74.chunk.js"
+    "revision": "2a4863ee488d06dd5dde",
+    "url": "/static/js/main.2a4863ee.chunk.js"
   },
   {
     "revision": "e91209f8698d66e06875",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/static/media/actorResume.ffaa61e9.pdf"
   },
   {
-    "revision": "1ecb775859dafdc4c5633f333e2b1886",
+    "revision": "640e792a64f7819362a723beb7fddc2b",
     "url": "/index.html"
   }
 ];

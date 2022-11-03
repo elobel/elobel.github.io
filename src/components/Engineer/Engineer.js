@@ -8,7 +8,7 @@ function Engineer() {
     <div className="engineerDiv">
       <h1 className="emilyHeading engineerText">emily lobel</h1>
       <h2 className="rainbowText">nice to meet you :)</h2>
-      <p className="engParagraph">i'm currently an engineer at&nbsp;
+      <p className="engParagraph">i was most recently an engineer at&nbsp;
         <a
           target="_blank"
           rel="noopener noreferrer"
